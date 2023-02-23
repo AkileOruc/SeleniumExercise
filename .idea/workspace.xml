@@ -8,32 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b932a756-f234-4cdf-87a0-b857bf5e92bf" name="Changes" comment="TestNG">
-      <change afterPath="$PROJECT_DIR$/paralel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siraliGroups.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siraliMethod.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/siraliTumTestler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/QualityDemyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TravelsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/PracticeTests/Day01Automation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/PracticeTests/Day02QualityAllStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/PracticeTests/Day03DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/PhpTravels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/QualityDemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/Soru1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/testsThess/Test03MotDePasseOublie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ThessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ThessPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Etsy01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/Etsy01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Thess01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tumTestler/testsThess/Test01LoginFaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ZeroBank01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/ZeroBank01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +185,8 @@
       <workItem from="1677111180631" duration="2992000" />
       <workItem from="1677153966865" duration="8378000" />
       <workItem from="1677181516727" duration="1460000" />
-      <workItem from="1677184598792" duration="1215000" />
+      <workItem from="1677184598792" duration="1408000" />
+      <workItem from="1677188168134" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="TestNG">
       <created>1676555184069</created>
@@ -219,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676555184069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TestNG">
+      <created>1677187383395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677187383395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
