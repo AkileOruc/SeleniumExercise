@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 public class ConfigReader {
+
+
+
+
+
     static Properties properties;
     static {
         String dosyaYolu= "configuration.properties";

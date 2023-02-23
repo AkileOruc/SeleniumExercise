@@ -3,25 +3,37 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BookmarksViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b932a756-f234-4cdf-87a0-b857bf5e92bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EtsyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ThessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Zerowebappsecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Etsy01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Thess01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ZeroBank01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+    <list default="true" id="b932a756-f234-4cdf-87a0-b857bf5e92bf" name="Changes" comment="TestNG">
+      <change afterPath="$PROJECT_DIR$/paralel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siraliGroups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siraliMethod.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/siraliTumTestler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AutomationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/QualityDemyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TravelsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/PracticeTests/Day01Automation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/PracticeTests/Day02QualityAllStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/PracticeTests/Day03DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/PhpTravels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/QualityDemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/Soru1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tumTestler/testsThess/Test03MotDePasseOublie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ThessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ThessPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Etsy01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/Etsy01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Thess01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tumTestler/testsThess/Test01LoginFaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ZeroBank01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tumTestler/tests/ZeroBank01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,93 +79,108 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ZeroBank01">
-    <configuration name="Etsy01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PhpTravels">
+    <configuration name="PhpTravels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Team114_TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Exercises.*" />
+          <option name="PATTERN" value="tumTestler.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Exercises" />
-      <option name="MAIN_CLASS_NAME" value="tests.Exercises.Etsy01" />
+      <option name="PACKAGE_NAME" value="tumTestler.tests" />
+      <option name="MAIN_CLASS_NAME" value="tumTestler.tests.PhpTravels" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Etsy01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Exercises" />
-      <option name="MAIN_CLASS_NAME" value="tests.Exercises.Etsy01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Etsy01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.Exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.Exercises" />
-      <option name="MAIN_CLASS_NAME" value="tests.Exercises.Etsy01" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Thess01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test02Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Team114_TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.Exercises.*" />
+          <option name="PATTERN" value="tumTestler.testsThess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.Exercises" />
-      <option name="MAIN_CLASS_NAME" value="tests.Exercises.Thess01" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="tumTestler.testsThess" />
+      <option name="MAIN_CLASS_NAME" value="tumTestler.testsThess.Test02Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroBank01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test02Login.testMotDePasse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Team114_TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tumTestler.testsThess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ZeroBank01" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="tumTestler.testsThess" />
+      <option name="MAIN_CLASS_NAME" value="tumTestler.testsThess.Test02Login" />
+      <option name="METHOD_NAME" value="testMotDePasse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test02Login.testVerifyTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Team114_TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tumTestler.testsThess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tumTestler.testsThess" />
+      <option name="MAIN_CLASS_NAME" value="tumTestler.testsThess.Test02Login" />
+      <option name="METHOD_NAME" value="testVerifyTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test03MotDePasseOublie" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Team114_TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tumTestler.testsThess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tumTestler.testsThess" />
+      <option name="MAIN_CLASS_NAME" value="tumTestler.testsThess.Test03MotDePasseOublie" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZeroBank01" />
-        <item itemvalue="JUnit.Thess01" />
-        <item itemvalue="JUnit.Etsy01 (1)" />
-        <item itemvalue="JUnit.Etsy01" />
-        <item itemvalue="JUnit.Etsy01.test01" />
+        <item itemvalue="JUnit.PhpTravels" />
+        <item itemvalue="TestNG.Test03MotDePasseOublie" />
+        <item itemvalue="TestNG.Test02Login" />
+        <item itemvalue="TestNG.Test02Login.testVerifyTitle" />
+        <item itemvalue="TestNG.Test02Login.testMotDePasse" />
       </list>
     </recent_temporary>
   </component>
@@ -167,11 +194,43 @@
       <updated>1676382377883</updated>
       <workItem from="1676382379453" duration="13220000" />
       <workItem from="1676454663299" duration="4253000" />
-      <workItem from="1676467107565" duration="13563000" />
+      <workItem from="1676467107565" duration="13933000" />
+      <workItem from="1676579751938" duration="5903000" />
+      <workItem from="1676628680858" duration="5773000" />
+      <workItem from="1676716163520" duration="7947000" />
+      <workItem from="1676912568201" duration="7622000" />
+      <workItem from="1676980927648" duration="1795000" />
+      <workItem from="1676982741754" duration="354000" />
+      <workItem from="1676983104400" duration="4367000" />
+      <workItem from="1676987631678" duration="9388000" />
+      <workItem from="1677066624684" duration="4658000" />
+      <workItem from="1677072919475" duration="2277000" />
+      <workItem from="1677085885975" duration="11484000" />
+      <workItem from="1677106527533" duration="4388000" />
+      <workItem from="1677111180631" duration="2992000" />
+      <workItem from="1677153966865" duration="8378000" />
+      <workItem from="1677181516727" duration="1460000" />
+      <workItem from="1677184598792" duration="1215000" />
     </task>
+    <task id="LOCAL-00001" summary="TestNG">
+      <created>1676555184069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676555184069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TestNG" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package tests;
+package tumTestler.tests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -54,25 +54,34 @@ public class ZeroBank01 {
         zeroWebappsecurity.currency.click();
 
 
-            Thread.sleep(2000);
+        Thread.sleep(2000);
 
-String expected="euro";
-String actual=zeroWebappsecurity.euroYazisi.getText();
+        String expected = "euro";
+        String actual = zeroWebappsecurity.euroYazisi.getText();
 
-            SoftAssert softAssert=new SoftAssert();
-            softAssert.assertTrue(actual.contains(expected));
-            softAssert.assertAll();
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertTrue(actual.contains(expected));
+        softAssert.assertAll();
 
-        List<WebElement> tumListe = Driver.getDriver().findElements(By.id("pc_currency"));
+
+        Select select = new Select(zeroWebappsecurity.currency);
+        List<WebElement> list = select.getOptions();
+        for (WebElement w:list) {
+            System.out.println(w.getText());
+        }
+
+
+       /* List<WebElement> tumListe = Driver.getDriver().findElements(By.id("pc_currency"));
 
         for (WebElement each : tumListe
         ) {
-            System.out.println(each.getText());
+            System.out.println(each.getText());*/
 
-          Driver.closeDriver();
+            Driver.closeDriver();
 
 
         }
 
     }
-}
+
+

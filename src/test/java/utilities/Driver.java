@@ -1,35 +1,53 @@
 package utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 import java.time.Duration;
 
 public class Driver {
 
-static WebDriver driver;
+    private Driver(){
+        // Singleton Patern konsepti ile Driver class'indan obje olusturmayi engellemek icin bu contructor i olusturduk
+    }
+    static WebDriver driver;
 
-
-    //Bir methodun icinde(diger package lerden class lardan kolayca cagirmak icin) Driver ayarlarini yapmaliyiz
     public static WebDriver getDriver(){
-       WebDriverManager.chromedriver().setup();
-
-       if (driver==null){
-
-           driver=new ChromeDriver();
-       }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-       driver.manage().window().maximize();
-
-
+        if(driver==null) {
+            switch (ConfigReader.getProperty("browser")) {
+                case "chrome":
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+                    break;
+                case "safari":
+                    WebDriverManager.safaridriver().setup();
+                    driver = new SafariDriver();
+                    break;
+                case "firefox":
+                    WebDriverManager.firefoxdriver().setup();
+                    driver = new FirefoxDriver();
+                    break;
+                default:
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
+            }
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        }
         return driver;
     }
-    //simdi de  browser i kapatmasi icin bir method olusturalim
-
     public static void closeDriver(){
+        if (driver!=null){
+            driver.close();
+            driver=null;
+        }
+    }
 
-        driver.close();
+    public static void quitDriver() {
+        driver.quit();
     }
 }

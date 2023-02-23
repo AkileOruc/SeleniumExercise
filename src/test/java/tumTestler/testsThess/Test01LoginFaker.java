@@ -1,31 +1,25 @@
-package tests;
+package tumTestler.testsThess;
 
 import com.github.javafaker.Faker;
 import org.junit.Assert;
 import org.junit.Test;
-import org.testng.asserts.SoftAssert;
 import pages.ThessPage;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 import java.util.Set;
 
-public class Thess01 {
+public class Test01LoginFaker {
 
 
     @Test
-    public void test01(){
+    public void loginTest01() throws InterruptedException {
 
-        Driver.getDriver().get("https://www.thess-corp.fr/");
+        Driver.getDriver().get(ConfigReader.getProperty("thessUrl"));
 
-        //sayfaya giris yaptigimizdan emin olalim
         ThessPage thessPage=new ThessPage();
-
-        String expectedTitle= "thess";
-        String actualTitle= thessPage.title.getText();
-
-        SoftAssert softAssert=new SoftAssert();
-
-        softAssert.assertTrue(actualTitle.contains(expectedTitle) );
+        //Bienvenue sur notre site Thess !  yazisi gonunur mu?
+        thessPage.bienvenue.isEnabled();
         //se connecter i click yapalim
         thessPage.seConnecter.click();
 
@@ -42,17 +36,18 @@ public class Thess01 {
             }
         }
 
-        Driver.getDriver().switchTo().window(ikinciSayfaHandle);
-      Faker faker= new Faker ();
+    Driver.getDriver().switchTo().window(ikinciSayfaHandle);
 
-     thessPage.login.sendKeys(faker.internet().emailAddress());
-
+  // Yeni acilan browser e gectik faker ile giris deneyelim, giris yapilmadigini test edelim
+        Thread.sleep(2000);
+    Faker faker= new Faker ();
+    thessPage.identifiant.sendKeys(faker.internet().emailAddress());
+        Thread.sleep(2000);
      thessPage.motDePasse.sendKeys(faker.internet().password());
-
      thessPage.connecter.click();
+        Thread.sleep(2000);
+     Assert.assertTrue(thessPage.invalide.isEnabled());
+     Driver.quitDriver();
 
-     softAssert.assertTrue(thessPage.invalide.isEnabled());
-
-softAssert.assertAll();
     }
 }
