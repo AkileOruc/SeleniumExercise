@@ -45,10 +45,10 @@ public class TravelsPage {
   @FindBy (css="input[name='password']")
   public WebElement password;
 
-  @FindBy (id="account_type")
+  @FindBy (xpath="//*[@class='select2-selection select2-selection--single']")
   public WebElement accountBox;
 
-  @FindBy (xpath = "//*[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']")
+  @FindBy (xpath = "/(//div[@role='presentation'])[2]")
   public WebElement clickRobot;
 
 

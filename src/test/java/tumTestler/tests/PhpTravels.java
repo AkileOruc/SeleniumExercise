@@ -3,7 +3,6 @@ package tumTestler.tests;
 import org.junit.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import pages.TravelsPage;
 import utilities.Driver;
 
@@ -54,21 +53,19 @@ public class PhpTravels {
 
         travelsPage.password.sendKeys("1111155555");
         Thread.sleep(1000);
-        Select select=new Select(travelsPage.password);
-        select.selectByIndex(1);
+
+        Actions actions=new Actions(Driver.getDriver());
+
+        actions.sendKeys(Keys.TAB).sendKeys("Customer").sendKeys("Customer").perform();
+
 
         Thread.sleep(3000);
 
-        Actions actions = new Actions(Driver.getDriver());
-        actions.sendKeys(Keys.TAB).perform();
-
+        Driver.getDriver().switchTo().frame(travelsPage.clickRobot);
         Thread.sleep(2000);
+        travelsPage.clickRobot.click();
 
-
-         Driver.getDriver().switchTo().frame(travelsPage.clickRobot);
-         travelsPage.clickRobot.click();
-
-       Driver.getDriver().switchTo().defaultContent();
+        Driver.getDriver().switchTo().defaultContent();
 
         Thread.sleep(2000);
 

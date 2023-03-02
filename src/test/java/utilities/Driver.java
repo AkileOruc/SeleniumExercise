@@ -29,9 +29,11 @@ public class Driver {
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
+                case "edge":
+                    WebDriverManager.edgedriver().setup();
                     break;
-                default:
+
+                    default:
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
             }

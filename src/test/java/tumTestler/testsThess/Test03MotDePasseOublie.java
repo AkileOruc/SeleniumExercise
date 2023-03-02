@@ -12,17 +12,17 @@ public class Test03MotDePasseOublie {
 
      ThessPage thessPage =new ThessPage();
 
-     thessPage.loginMethod1();
+     thessPage.loginMethodNormal();
 
 
         thessPage.motDePasseOublie.click();
         thessPage.reinitialiserMotDePasse.isEnabled();
         thessPage.identifiantDeConnexion.sendKeys("moruc");
 
-        Driver.getDriver().switchTo().frame(thessPage.jeNeSuisPasRobot);
-        thessPage.jeNeSuisPasRobot.click();
+       // Driver.getDriver().switchTo().frame(thessPage.jeNeSuisPasRobot);
+       // thessPage.jeNeSuisPasRobot.click();
 
-        Driver.getDriver().switchTo().defaultContent();
+       // Driver.getDriver().switchTo().defaultContent();
 
     }
     }

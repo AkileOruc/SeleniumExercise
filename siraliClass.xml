@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="class calistirma">
+    <test name="class calistirma">
+
+        <classes>
+            <class name="tumTestler.PracticeTests.Day01Automation"></class>
+
+        </classes>
+    </test>
+</suite>

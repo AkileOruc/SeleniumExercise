@@ -57,8 +57,34 @@ public class ThessPage {
     @FindBy(id = "form_login")
     public WebElement identifiantDeConnexion;
 
+
     @FindBy(xpath  = "//*[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']")
     public WebElement jeNeSuisPasRobot;
+
+
+
+    @FindBy(xpath = "(//*[@class='middle margin-left-5'])[2]")
+    public WebElement mesPatients;
+
+
+    @FindBy(xpath = "(//*[@type='button'])[1]")
+    public WebElement ajouterUnPatient;
+
+    @FindBy(id = "required")
+    public WebElement etablissementMedical;
+
+
+
+
+
+    @FindBy(xpath = "(//*[@type='button'])[11]")
+    public WebElement croix;
+
+    @FindBy(xpath = "//*[@class='button -tertiary popup-close -popup-close-button-footer']")
+    public WebElement fermer;
+
+@FindBy(xpath ="//*[@for='care_team_id_list_18']")
+public WebElement demoCase;
 
 
     public void handleMethod() {
@@ -79,16 +105,17 @@ public class ThessPage {
     }
 
 
-    public void loginMethod1() {
+    public void loginMethodNormal() {
         Driver.getDriver().get(ConfigReader.getProperty("thessUrl"));
         seConnecter.click();
         handleMethod();
+
     }
 
 
 
 
-    public void loginMethod2(String utilisateur,String motdepasse) {
+    public void loginMethodDataProvider(String utilisateur,String motdepasse) {
         Driver.getDriver().get(ConfigReader.getProperty("thessUrl"));
         seConnecter.click();
         handleMethod();
